@@ -1,0 +1,17 @@
+//Información sobre default methods
+{*
+El concepto de Java Interface default method, es un concepto agregado en la version de Java 8
+¿Cual es su utilidad?
+Estos metodos se implementan a nivel de interfaces, comunmente estamos acostumbrados a que las interfaces solo definan
+la funcionalidad y no la implementen.
+El objetivo principal de ellos es permitir agregar funcionalidad con un comportamiento por defecto esperando que en un futuro cada implementación lo sobreescriba con el suyo propio.
+
+Tomando un poco de información de la documentacion oficial de oracle
+https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html
+
+Podemos añadir que los métodos predeterminados le permiten agregar nuevas funciones a las interfaces de sus bibliotecas y
+garantizar la compatibilidad binaria con el código escrito para versiones anteriores de esas interfaces.
+En particular, los métodos predeterminados le permiten agregar métodos que aceptan expresiones lambda como parámetros para interfaces existentes.
+
+Para utilizarla, simplemente declaramos la palabra reservada default antes del metodo a escribir en la interface
+Como ya sabemos, todas las interfaces por defecto son publicas.
